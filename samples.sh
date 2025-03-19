@@ -1,10 +1,10 @@
 curl -X POST http://127.0.0.1:5000/signup \
 -H "Content-Type: application/json" \
--d '{"name": "abdo", "username": "abdo", "password": "1234"}'
+-d '{"name": "abdo", "username": "MOHAMED", "password": "1234"}'
 
 curl -X POST http://127.0.0.1:5000/login \
 -H "Content-Type: application/json" \
--d '{"username": "abdo", "password": "1234"}'
+-d '{"username": "MOHAMED", "password": "1234"}'
 
 curl -X POST http://127.0.0.1:5000/products \
 -H "Content-Type: application/json" \
